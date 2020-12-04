@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { PolarBet } from './PolarBet';
+import { LoadWeb3 } from './components/web3';
+import { Home } from './Home';
 import reportWebVitals from './reportWebVitals';
+
+LoadWeb3();
 
 ReactDOM.render(
   <React.StrictMode>
-    <PolarBet />
+    <Home />
   </React.StrictMode>,
   document.getElementById('root')
 );
