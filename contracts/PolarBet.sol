@@ -1,6 +1,7 @@
-pragma solidity 0.5.16;
+pragma solidity ^0.6.0;
+import "github.com/provable-things/ethereum-api/provableAPI_0.6.sol";
 
-contract Dealer {
+contract Dealer is usingProvable {
     uint dealerBalance;
     uint bet;
     uint playedGames;
@@ -30,18 +31,13 @@ contract Dealer {
     }
     
     function addBet(uint _bet) public onlyPlayer {
-        if (checkIfBalanceIsEnough(_bet)) {
+        require(checkIfBalanceIsEnough(_bet));
             bet = _bet;
             dealerBalance += bet;
             playedGames += 1;
             playerList[msg.sender] = PlayerData(msg.sender, playedGames);
-        }
     }
     
-    
-    function returnBet() public {
-        dealerBalance -= bet; 
-    }
     
     function returnBetWithProfit() public {
         dealerBalance -= bet * 2; 
@@ -56,18 +52,40 @@ contract Dealer {
     }
 }
 
-
 contract PolarBet is Dealer {
     uint dealerDiceResult;
-    uint userDiceResult; 
+    uint userDiceResult;
+    bytes32 public queryId;
+    
+    
+    constructor() public { 
+        provable_setProof(proofType_Ledger); 
+    }
+    
+    
+    function __callback(bytes32  _queryId,string memory _result,bytes memory _proof ) override public {
+        require(msg.sender == provable_cbAddress());
+        if (provable_randomDS_proofVerify__returnCode(_queryId,_result,_proof)== 0)
+            userDiceResult = uint8(uint256(keccak256(abi.encodePacked(_result)))% 5) + 1;
+        else
+            revert("error message");
+}
+    
+    function getRandom(uint8 nrBytes) public payable { // not supported in remix
+        queryId=provable_newRandomDSQuery(
+            0,          // QUERY_EXECUTION_DELAY
+            nrBytes,    // NUM_RANDOM_BYTES_REQUESTED
+            200000      // GAS_FOR_CALLBACK
+        );
+    }
     
     function getRandomNumber() private view returns (uint8) {
         return uint8(uint256(keccak256(abi.encodePacked(block.timestamp, block.coinbase, block.difficulty)))%6) + 1;
     }
     
-    function rollDice() public  {
+    function rollDice() public payable {
         dealerDiceResult = getRandomNumber();
-        userDiceResult = 6;
+        getRandom(1);
     }
 
     function getDiceResultOfDealer() public view returns (uint) {
@@ -78,13 +96,17 @@ contract PolarBet is Dealer {
         return userDiceResult;
     }
     
-    function winLose() public  {
+    function payOut() public  {
         if (dealerDiceResult < userDiceResult) {
             returnBetWithProfit();
             emit PlayerWins(player, bet, dealerBalance);
-        }  else {
-            returnBet();
-        }
-        bet = 0;
+        }  
+        resetBetAndDiceResults();
+    }
+    
+    function resetBetAndDiceResults() private {
+        dealerDiceResult = 0;
+        userDiceResult = 0;
+        bet = 0; 
     }
 }
