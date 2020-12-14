@@ -1,5 +1,6 @@
 pragma solidity ^0.6.0;
-import "github.com/provable-things/ethereum-api/provableAPI_0.6.sol";
+import "./provableAPI.sol";
+
 
 contract Dealer is usingProvable {
     uint dealerBalance;
