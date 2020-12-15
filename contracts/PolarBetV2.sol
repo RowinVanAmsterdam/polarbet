@@ -3,17 +3,12 @@ import "./provableAPI.sol";
 import "@openzeppelin/upgrades-core/contracts/Initializable.sol";
 
 
-contract Dealer is usingProvable, Initializable  {
+contract DealerV2 is usingProvable, Initializable  {
     uint public dealerBalance;
     uint bet;
     uint playedGames;
     address player;
     
-    // constructor() public {
-    //     dealerBalance = 10;
-    //      player = msg.sender;
-    // }
-
     function initialize() public initializer {
         dealerBalance = 10;
         player = msg.sender;
@@ -39,10 +34,14 @@ contract Dealer is usingProvable, Initializable  {
     
     function addBet(uint _bet) public onlyPlayer {
         require(checkIfBalanceIsEnough(_bet));
-            bet = _bet;
-            dealerBalance += bet;
+            dealerBalance += _bet;
             playedGames += 1;
             playerList[msg.sender] = PlayerData(msg.sender, playedGames);
+    }
+
+    function addBet2(uint _bet) public onlyPlayer {
+        require(checkIfBalanceIsEnough(_bet));
+            dealerBalance += _bet * 2;
     }
     
     
@@ -59,7 +58,7 @@ contract Dealer is usingProvable, Initializable  {
     }
 }
 
-contract PolarBet is Dealer {
+contract PolarBetV2 is DealerV2 {
     uint dealerDiceResult;
     uint userDiceResult;
     bytes32 public queryId;
