@@ -23,5 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 # truffle 
-.infura.json
-.secret.json
+.infura.txt
+.secret.txt
