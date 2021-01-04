@@ -1,5 +1,3 @@
-import React from "react";
-
 const getCurrentAccount = async () => {
     const accounts = await window.web3.eth.getAccounts();
     return accounts[0];

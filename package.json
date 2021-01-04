@@ -16,6 +16,7 @@
     "ethereum-mnemonic-privatekey-utils": "^1.0.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "sass": "^1.29.0",
     "truffle": "^5.1.56",
@@ -46,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^5.1.7"
   }
 }

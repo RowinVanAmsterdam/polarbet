@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App';
 import { LoadWeb3 } from './components/web3';
-import { Home } from './Home';
 import reportWebVitals from './reportWebVitals';
+import "./assets/css/import.scss";
 
 LoadWeb3();
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
