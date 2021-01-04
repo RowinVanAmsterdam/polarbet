@@ -32,13 +32,12 @@ export const Home = () => {
           </div>
           <div>
             <h2>Set your bet:</h2>
-        
-            <input 
-            type="number" 
-            onChange={e => setBet(parseInt(e.target.value))}
+
+            <input
+              type="number"
+              onChange={(e) => setBet(parseInt(e.target.value))}
             />
             <button onClick={() => AddBet(bet)}>add bet</button>
-
           </div>
         </div>
       </main>
