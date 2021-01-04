@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/polarbet/static/css/main.ff85666c.chunk.css",
-    "main.js": "/polarbet/static/js/main.2911db14.chunk.js",
-    "main.js.map": "/polarbet/static/js/main.2911db14.chunk.js.map",
-    "runtime-main.js": "/polarbet/static/js/runtime-main.503dccfd.js",
-    "runtime-main.js.map": "/polarbet/static/js/runtime-main.503dccfd.js.map",
-    "static/js/2.1625de09.chunk.js": "/polarbet/static/js/2.1625de09.chunk.js",
-    "static/js/2.1625de09.chunk.js.map": "/polarbet/static/js/2.1625de09.chunk.js.map",
-    "static/js/3.3a6b4741.chunk.js": "/polarbet/static/js/3.3a6b4741.chunk.js",
-    "static/js/3.3a6b4741.chunk.js.map": "/polarbet/static/js/3.3a6b4741.chunk.js.map",
-    "index.html": "/polarbet/index.html",
-    "static/css/main.ff85666c.chunk.css.map": "/polarbet/static/css/main.ff85666c.chunk.css.map",
-    "static/js/2.1625de09.chunk.js.LICENSE.txt": "/polarbet/static/js/2.1625de09.chunk.js.LICENSE.txt"
+    "main.css": "/BC3_Rowin/static/css/main.ff85666c.chunk.css",
+    "main.js": "/BC3_Rowin/static/js/main.de6a5fc3.chunk.js",
+    "main.js.map": "/BC3_Rowin/static/js/main.de6a5fc3.chunk.js.map",
+    "runtime-main.js": "/BC3_Rowin/static/js/runtime-main.5642b888.js",
+    "runtime-main.js.map": "/BC3_Rowin/static/js/runtime-main.5642b888.js.map",
+    "static/js/2.eac4c12c.chunk.js": "/BC3_Rowin/static/js/2.eac4c12c.chunk.js",
+    "static/js/2.eac4c12c.chunk.js.map": "/BC3_Rowin/static/js/2.eac4c12c.chunk.js.map",
+    "static/js/3.3a6b4741.chunk.js": "/BC3_Rowin/static/js/3.3a6b4741.chunk.js",
+    "static/js/3.3a6b4741.chunk.js.map": "/BC3_Rowin/static/js/3.3a6b4741.chunk.js.map",
+    "index.html": "/BC3_Rowin/index.html",
+    "static/css/main.ff85666c.chunk.css.map": "/BC3_Rowin/static/css/main.ff85666c.chunk.css.map",
+    "static/js/2.eac4c12c.chunk.js.LICENSE.txt": "/BC3_Rowin/static/js/2.eac4c12c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.503dccfd.js",
-    "static/js/2.1625de09.chunk.js",
+    "static/js/runtime-main.5642b888.js",
+    "static/js/2.eac4c12c.chunk.js",
     "static/css/main.ff85666c.chunk.css",
-    "static/js/main.2911db14.chunk.js"
+    "static/js/main.de6a5fc3.chunk.js"
   ]
 }
