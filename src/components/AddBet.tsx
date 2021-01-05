@@ -5,7 +5,6 @@ const getCurrentAccount = async () => {
 
 export const AddBet = async (bet: number) => {
     const account = await getCurrentAccount();
-    console.log(account);
     window.contract.methods.addBet(bet).send({ from: account });
 };
 
