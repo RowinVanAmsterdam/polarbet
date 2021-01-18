@@ -13,6 +13,7 @@ declare global {
     ethereum: any;
     web3: any;
     contract: any;
+    IpfsHttpClient: any;
   }
 }
 
