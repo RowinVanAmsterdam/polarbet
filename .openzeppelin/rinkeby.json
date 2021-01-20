@@ -1000,6 +1000,293 @@
           }
         }
       }
+    },
+    "c489e912816a07a4345b545ed5dc132adbcbf597791236a3afc771edd65d579b": {
+      "address": "0x15D42B157bf9B14aaF1249BC8c02218fbC8B1BF8",
+      "txHash": "0x5294473aeb89339fecabcee3d3f985a0615e47e5b336b418ddee2db1d28491e0",
+      "layout": {
+        "storage": [
+          {
+            "contract": "usingProvable",
+            "label": "provable",
+            "type": "t_contract(ProvableI)1418",
+            "src": "provableAPI.sol:259"
+          },
+          {
+            "contract": "usingProvable",
+            "label": "OAR",
+            "type": "t_contract(OracleAddrResolverI)1424",
+            "src": "provableAPI.sol:260"
+          },
+          {
+            "contract": "usingProvable",
+            "label": "provable_network_name",
+            "type": "t_string_storage",
+            "src": "provableAPI.sol:273"
+          },
+          {
+            "contract": "usingProvable",
+            "label": "provable_randomDS_args",
+            "type": "t_mapping(t_bytes32,t_bytes32)",
+            "src": "provableAPI.sol:280"
+          },
+          {
+            "contract": "usingProvable",
+            "label": "provable_randomDS_sessionKeysHashVerified",
+            "type": "t_mapping(t_bytes32,t_bool)",
+            "src": "provableAPI.sol:281"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/upgrades-core/contracts/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/upgrades-core/contracts/Initializable.sol:28"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/upgrades-core/contracts/Initializable.sol:63"
+          },
+          {
+            "contract": "AccessControl",
+            "label": "_roles",
+            "type": "t_mapping(t_bytes32,t_struct(RoleData)7754_storage)",
+            "src": "../@openzeppelin/contracts/access/AccessControl.sol:53"
+          },
+          {
+            "contract": "DealerV4",
+            "label": "dealerBalance",
+            "type": "t_uint256",
+            "src": "PolarBetV4.sol:7"
+          },
+          {
+            "contract": "DealerV4",
+            "label": "bet",
+            "type": "t_uint256",
+            "src": "PolarBetV4.sol:8"
+          },
+          {
+            "contract": "DealerV4",
+            "label": "playedGames",
+            "type": "t_uint256",
+            "src": "PolarBetV4.sol:9"
+          },
+          {
+            "contract": "DealerV4",
+            "label": "player",
+            "type": "t_address",
+            "src": "PolarBetV4.sol:10"
+          },
+          {
+            "contract": "DealerV4",
+            "label": "playerList",
+            "type": "t_mapping(t_address,t_struct(PlayerData)1027_storage)",
+            "src": "PolarBetV4.sol:19"
+          },
+          {
+            "contract": "PolarBetV4",
+            "label": "dealerDiceResult",
+            "type": "t_uint256",
+            "src": "PolarBetV4.sol:57"
+          },
+          {
+            "contract": "PolarBetV4",
+            "label": "userDiceResult",
+            "type": "t_uint256",
+            "src": "PolarBetV4.sol:58"
+          },
+          {
+            "contract": "PolarBetV4",
+            "label": "queryId",
+            "type": "t_bytes32",
+            "src": "PolarBetV4.sol:59"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_address,t_struct(PlayerData)1027_storage)": {
+            "label": "mapping(address => struct DealerV4.PlayerData)"
+          },
+          "t_mapping(t_bytes32,t_struct(RoleData)7754_storage)": {
+            "label": "mapping(bytes32 => struct AccessControl.RoleData)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_contract(ProvableI)1418": {
+            "label": "contract ProvableI"
+          },
+          "t_contract(OracleAddrResolverI)1424": {
+            "label": "contract OracleAddrResolverI"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_mapping(t_bytes32,t_bytes32)": {
+            "label": "mapping(bytes32 => bytes32)"
+          },
+          "t_mapping(t_bytes32,t_bool)": {
+            "label": "mapping(bytes32 => bool)"
+          }
+        }
+      }
+    },
+    "8a29a9c89ce792574c40d5cdd0cbfba8fe262daced002b0e90ff24201d43bf23": {
+      "address": "0x9794f0951ec3B81fFEe635D55C0b0169d7c8e64f",
+      "txHash": "0xa24c28530b653443d6d3e52196342f52d2e445247274326dc783125eaa1e0fae",
+      "layout": {
+        "storage": [
+          {
+            "contract": "usingProvable",
+            "label": "provable",
+            "type": "t_contract(ProvableI)1425",
+            "src": "provableAPI.sol:259"
+          },
+          {
+            "contract": "usingProvable",
+            "label": "OAR",
+            "type": "t_contract(OracleAddrResolverI)1431",
+            "src": "provableAPI.sol:260"
+          },
+          {
+            "contract": "usingProvable",
+            "label": "provable_network_name",
+            "type": "t_string_storage",
+            "src": "provableAPI.sol:273"
+          },
+          {
+            "contract": "usingProvable",
+            "label": "provable_randomDS_args",
+            "type": "t_mapping(t_bytes32,t_bytes32)",
+            "src": "provableAPI.sol:280"
+          },
+          {
+            "contract": "usingProvable",
+            "label": "provable_randomDS_sessionKeysHashVerified",
+            "type": "t_mapping(t_bytes32,t_bool)",
+            "src": "provableAPI.sol:281"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts/GSN/Context.sol:21"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts/GSN/Context.sol:22"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts/GSN/Context.sol:25"
+          },
+          {
+            "contract": "DealerV4",
+            "label": "dealerBalance",
+            "type": "t_uint256",
+            "src": "PolarBetV4.sol:7"
+          },
+          {
+            "contract": "DealerV4",
+            "label": "bet",
+            "type": "t_uint256",
+            "src": "PolarBetV4.sol:8"
+          },
+          {
+            "contract": "DealerV4",
+            "label": "playedGames",
+            "type": "t_uint256",
+            "src": "PolarBetV4.sol:9"
+          },
+          {
+            "contract": "DealerV4",
+            "label": "player",
+            "type": "t_address",
+            "src": "PolarBetV4.sol:10"
+          },
+          {
+            "contract": "DealerV4",
+            "label": "playerList",
+            "type": "t_mapping(t_address,t_struct(PlayerData)1032_storage)",
+            "src": "PolarBetV4.sol:26"
+          },
+          {
+            "contract": "PolarBetV4",
+            "label": "dealerDiceResult",
+            "type": "t_uint256",
+            "src": "PolarBetV4.sol:65"
+          },
+          {
+            "contract": "PolarBetV4",
+            "label": "userDiceResult",
+            "type": "t_uint256",
+            "src": "PolarBetV4.sol:66"
+          },
+          {
+            "contract": "PolarBetV4",
+            "label": "queryId",
+            "type": "t_bytes32",
+            "src": "PolarBetV4.sol:67"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_address,t_struct(PlayerData)1032_storage)": {
+            "label": "mapping(address => struct DealerV4.PlayerData)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_contract(ProvableI)1425": {
+            "label": "contract ProvableI"
+          },
+          "t_contract(OracleAddrResolverI)1431": {
+            "label": "contract OracleAddrResolverI"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_mapping(t_bytes32,t_bytes32)": {
+            "label": "mapping(bytes32 => bytes32)"
+          },
+          "t_mapping(t_bytes32,t_bool)": {
+            "label": "mapping(bytes32 => bool)"
+          }
+        }
+      }
     }
   },
   "admin": {

@@ -1,7 +1,7 @@
 import Web3 from "web3";
 import contract from "../assets/static/build/contracts/PolarBetV4.json";
-const contractAddress = "0xb7F2C729AbD352dBaaC0b5930da84129e6c71cc0"; // Rinkeby
-// const contractAddress = "0x0EEe5BCa52BAd4e2442Eb926889D4ED8b9dC6FA5"; // Ganache
+const contractAddress = "0x827D6d04Ffbf64cEa0D00b1FeD0Fe04a46CB6033"; // Rinkeby
+// const contractAddress = "0x3C21f4A120b1FEd1b9F5Fc6c076c2E40124a3d8B"; // Ganache
 
 const contractABI = () => {
   const abi = contract.abi;
