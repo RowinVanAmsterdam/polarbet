@@ -5,6 +5,7 @@ import { LoadWeb3 } from './components/web3';
 import reportWebVitals from './reportWebVitals';
 import "./assets/css/import.scss";
 
+// (async() => {await LoadWeb3()})();
 LoadWeb3();
 
 ReactDOM.render(

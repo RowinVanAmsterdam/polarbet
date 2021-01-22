@@ -8595,42 +8595,12 @@
         }
       },
       "links": {},
-      "address": "0x827D6d04Ffbf64cEa0D00b1FeD0Fe04a46CB6033"
-    },
-    "5777": {
-      "events": {
-        "0x1346ef089488831ddd390d36e94e4a0341136af2f1357d621b103c39c4523e73": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": false,
-              "internalType": "address",
-              "name": "player",
-              "type": "address"
-            },
-            {
-              "indexed": false,
-              "internalType": "uint256",
-              "name": "profit",
-              "type": "uint256"
-            },
-            {
-              "indexed": false,
-              "internalType": "uint256",
-              "name": "dealerBalance",
-              "type": "uint256"
-            }
-          ],
-          "name": "PlayerWins",
-          "type": "event"
-        }
-      },
-      "links": {},
-      "address": "0x3C21f4A120b1FEd1b9F5Fc6c076c2E40124a3d8B"
+      "address": "0xc980207f705242bEAb7C9401F841bDd9749dDb2b",
+      "transactionHash": "0x6f058a22b0bdf1a635da04cbb96accd0ce3fa0b5fbb6bfafacc33544f99d0b9c"
     }
   },
   "schemaVersion": "3.3.3",
-  "updatedAt": "2021-01-20T14:03:17.513Z",
+  "updatedAt": "2021-01-21T16:08:02.078Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
