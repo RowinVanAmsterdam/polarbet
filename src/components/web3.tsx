@@ -1,6 +1,6 @@
 import Web3 from "web3";
 import contract from "../assets/static/build/contracts/PolarBetV4.json";
-// const contractAddress = "polarbet.eth"; // ENS Rinkeby
+const contractAddress = "polarbet.eth"; // ENS Rinkeby
 // const contractAddress = "0xc980207f705242bEAb7C9401F841bDd9749dDb2b"; // Rinkeby
 // const contractAddress = "0x3C21f4A120b1FEd1b9F5Fc6c076c2E40124a3d8B"; // Ganache
 const web3 = new Web3(Web3.givenProvider || "http://localhost:8545");
@@ -22,23 +22,10 @@ const contractABI = () => {
 
 const loadContract = async () => {
   try {
-    console.log("loadContract is called");
-
-    const getAddress = await web3.eth.ens
-      .getAddress("polarbet.eth")
-      .then(function (address) {
-        console.log("Address from ENS:" + address);
-        return address;
-      });
-
-    console.log("Result from getAddress:");
-    console.log(getAddress);
-
-    const result = await new web3.eth.Contract(
-      contractABI() as any,
-      getAddress
-    );
-    window.contract = await result;
+    const address = await web3.eth.ens.getAddress(contractAddress);
+    console.log(address);
+    const result = await new web3.eth.Contract(contractABI() as any, address);
+    window.contract = result;
   } catch (e) {
     console.log(e);
   }
