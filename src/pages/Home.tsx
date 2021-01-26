@@ -25,7 +25,6 @@ export const Home = () => {
   const [queryId, setQueryId] = useState<string>();
   const [playerWinsLog, setPlayerWinsLog] = useState<string>();
 
-
   useEffect(() => {
     getBalance();
   }, []);
@@ -54,6 +53,7 @@ export const Home = () => {
     const eventLog = await PlayerWins();
     setPlayerWinsLog(eventLog);
   };
+
 
   return (
     <main className="App">
