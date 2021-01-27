@@ -279,7 +279,7 @@
         "id": 659,
         "nodeType": "ImportDirective",
         "scope": 977,
-        "sourceUnit": 7720,
+        "sourceUnit": 7729,
         "src": "24:27:3",
         "symbolAliases": [],
         "unitAlias": ""
@@ -290,7 +290,7 @@
         "id": 660,
         "nodeType": "ImportDirective",
         "scope": 977,
-        "sourceUnit": 7795,
+        "sourceUnit": 7804,
         "src": "52:65:3",
         "symbolAliases": [],
         "unitAlias": ""
@@ -305,10 +305,10 @@
               "id": 661,
               "name": "usingProvable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 7719,
+              "referencedDeclaration": 7728,
               "src": "141:13:3",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_usingProvable_$7719",
+                "typeIdentifier": "t_contract$_usingProvable_$7728",
                 "typeString": "contract usingProvable"
               }
             },
@@ -323,10 +323,10 @@
               "id": 663,
               "name": "Initializable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 7794,
+              "referencedDeclaration": 7803,
               "src": "156:13:3",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Initializable_$7794",
+                "typeIdentifier": "t_contract$_Initializable_$7803",
                 "typeString": "contract Initializable"
               }
             },
@@ -336,8 +336,8 @@
           }
         ],
         "contractDependencies": [
-          7719,
-          7794
+          7728,
+          7803
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -345,8 +345,8 @@
         "id": 799,
         "linearizedBaseContracts": [
           799,
-          7794,
-          7719
+          7803,
+          7728
         ],
         "name": "DealerV3",
         "nodeType": "ContractDefinition",
@@ -601,7 +601,7 @@
                   "name": "initializer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 7767,
+                  "referencedDeclaration": 7776,
                   "src": "298:11:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -2057,8 +2057,8 @@
         ],
         "contractDependencies": [
           799,
-          7719,
-          7794
+          7728,
+          7803
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -2067,8 +2067,8 @@
         "linearizedBaseContracts": [
           976,
           799,
-          7794,
-          7719
+          7803,
+          7728
         ],
         "name": "PolarBetV3",
         "nodeType": "ContractDefinition",
@@ -2174,7 +2174,7 @@
                         "name": "proofType_Ledger",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2013,
+                        "referencedDeclaration": 2022,
                         "src": "1740:16:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes1",
@@ -2193,7 +2193,7 @@
                       "name": "provable_setProof",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 5461,
+                      "referencedDeclaration": 5470,
                       "src": "1722:17:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_bytes1_$returns$__$",
@@ -2236,7 +2236,7 @@
                   "name": "initializer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 7767,
+                  "referencedDeclaration": 7776,
                   "src": "1700:11:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -2270,7 +2270,7 @@
           },
           {
             "baseFunctions": [
-              2379
+              2388
             ],
             "body": {
               "id": 866,
@@ -2332,7 +2332,7 @@
                             "name": "provable_cbAddress",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 5473,
+                            "referencedDeclaration": 5482,
                             "src": "1913:18:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_nonpayable$__$returns$_t_address_$",
@@ -2475,7 +2475,7 @@
                         "name": "provable_randomDS_proofVerify__returnCode",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 7217,
+                        "referencedDeclaration": 7226,
                         "src": "1948:41:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_nonpayable$_t_bytes32_$_t_string_memory_ptr_$_t_bytes_memory_ptr_$returns$_t_uint8_$",
@@ -3116,7 +3116,7 @@
                         "name": "provable_newRandomDSQuery",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 6794,
+                        "referencedDeclaration": 6803,
                         "src": "2264:25:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_nonpayable$_t_uint256_$_t_uint256_$_t_uint256_$returns$_t_bytes32_$",
@@ -4432,7 +4432,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 7720,
+          "SourceUnit": 7729,
           "absolutePath": "/Users/rowin/Documents/projects/Koios/polarbet/contracts/provableAPI.sol",
           "file": "./provableAPI.sol",
           "scope": 977,
@@ -4447,7 +4447,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 7795,
+          "SourceUnit": 7804,
           "absolutePath": "@openzeppelin/upgrades-core/contracts/Initializable.sol",
           "file": "@openzeppelin/upgrades-core/contracts/Initializable.sol",
           "scope": 977,
@@ -4464,16 +4464,16 @@
         "attributes": {
           "abstract": false,
           "contractDependencies": [
-            7719,
-            7794
+            7728,
+            7803
           ],
           "contractKind": "contract",
           "documentation": null,
           "fullyImplemented": true,
           "linearizedBaseContracts": [
             799,
-            7794,
-            7719
+            7803,
+            7728
           ],
           "name": "DealerV3",
           "scope": 977
@@ -4488,7 +4488,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "usingProvable",
-                  "referencedDeclaration": 7719,
+                  "referencedDeclaration": 7728,
                   "type": "contract usingProvable"
                 },
                 "id": 661,
@@ -4509,7 +4509,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "Initializable",
-                  "referencedDeclaration": 7794,
+                  "referencedDeclaration": 7803,
                   "type": "contract Initializable"
                 },
                 "id": 663,
@@ -4683,7 +4683,7 @@
                       "overloadedDeclarations": [
                         null
                       ],
-                      "referencedDeclaration": 7767,
+                      "referencedDeclaration": 7776,
                       "type": "modifier ()",
                       "value": "initializer"
                     },
@@ -6377,8 +6377,8 @@
           "abstract": false,
           "contractDependencies": [
             799,
-            7719,
-            7794
+            7728,
+            7803
           ],
           "contractKind": "contract",
           "documentation": null,
@@ -6386,8 +6386,8 @@
           "linearizedBaseContracts": [
             976,
             799,
-            7794,
-            7719
+            7803,
+            7728
           ],
           "name": "PolarBetV3",
           "scope": 977
@@ -6547,7 +6547,7 @@
                       "overloadedDeclarations": [
                         null
                       ],
-                      "referencedDeclaration": 7767,
+                      "referencedDeclaration": 7776,
                       "type": "modifier ()",
                       "value": "initializer"
                     },
@@ -6591,7 +6591,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5461,
+                              "referencedDeclaration": 5470,
                               "type": "function (bytes1)",
                               "value": "provable_setProof"
                             },
@@ -6605,7 +6605,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 2013,
+                              "referencedDeclaration": 2022,
                               "type": "bytes1",
                               "value": "proofType_Ledger"
                             },
@@ -6636,7 +6636,7 @@
           {
             "attributes": {
               "baseFunctions": [
-                2379
+                2388
               ],
               "documentation": null,
               "functionSelector": "38bbfa50",
@@ -6878,7 +6878,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 5473,
+                                      "referencedDeclaration": 5482,
                                       "type": "function () returns (address)",
                                       "value": "provable_cbAddress"
                                     },
@@ -6958,7 +6958,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 7217,
+                                  "referencedDeclaration": 7226,
                                   "type": "function (bytes32,string memory,bytes memory) returns (uint8)",
                                   "value": "provable_randomDS_proofVerify__returnCode"
                                 },
@@ -7565,7 +7565,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 6794,
+                                  "referencedDeclaration": 6803,
                                   "type": "function (uint256,uint256,uint256) returns (bytes32)",
                                   "value": "provable_newRandomDSQuery"
                                 },
@@ -9061,12 +9061,12 @@
         }
       },
       "links": {},
-      "address": "0xc980207f705242bEAb7C9401F841bDd9749dDb2b",
+      "address": "0x558e5DAB147d25109564924460d15817c35B7a56",
       "transactionHash": "0x2230be1a906644f8c3bc3d0f7f956599b5f9aaa1ffe299efaef7a49c4ff0e4a5"
     }
   },
   "schemaVersion": "3.3.3",
-  "updatedAt": "2021-01-21T16:08:02.101Z",
+  "updatedAt": "2021-01-27T12:37:32.520Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

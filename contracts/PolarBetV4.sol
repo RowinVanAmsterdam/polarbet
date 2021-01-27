@@ -60,6 +60,8 @@ contract PolarBetV4 is DealerV4 {
     uint256 public dealerDiceResult;
     uint256 public userDiceResult;
     bytes32 public queryId;
+    bytes public getRandomResult;
+
 
     // constructor() public {
     //     provable_setProof(proofType_Ledger);
@@ -69,31 +71,20 @@ contract PolarBetV4 is DealerV4 {
         provable_setProof(proofType_Ledger);
     }
 
-    function __callback(
-        bytes32 _queryId,
-        string memory _result,
-        bytes memory _proof
-    ) public override {
-        require(msg.sender == provable_cbAddress());
-        if (
-            provable_randomDS_proofVerify__returnCode(
-                _queryId,
-                _result,
-                _proof
-            ) == 0
-        )
-            userDiceResult =
-                uint8(uint256(keccak256(abi.encodePacked(_result))) % 5) +
-                1;
-        else revert("error message");
-    }
 
-    function getRandom(uint8 nrBytes) public payable {
-        // not supported in remix
-        queryId = provable_newRandomDSQuery(
-            0, // QUERY_EXECUTION_DELAY
-            nrBytes, // NUM_RANDOM_BYTES_REQUESTED
-            200000 // GAS_FOR_CALLBACK
+        function __callback(bytes32  _queryId,string memory _result,bytes memory _proof ) override public {
+        require(msg.sender == provable_cbAddress());
+        if (provable_randomDS_proofVerify__returnCode(_queryId,_result,_proof)== 0)
+            getRandomResult = bytes(_result);
+        else
+            revert("error message");
+}
+    
+    function getRandom(uint8 nrBytes) public payable { // not supported in remix
+        queryId=provable_newRandomDSQuery(
+            0,          // QUERY_EXECUTION_DELAY
+            nrBytes,    // NUM_RANDOM_BYTES_REQUESTED
+            200000      // GAS_FOR_CALLBACK
         );
     }
 
@@ -121,8 +112,8 @@ contract PolarBetV4 is DealerV4 {
         return dealerDiceResult;
     }
 
-    function getDiceResultOfUser() public view returns (uint256) {
-        return userDiceResult;
+    function getDiceResultOfUser() public payable {
+        userDiceResult = uint8(uint256(keccak256(abi.encodePacked(getRandomResult)))% 5) + 1;
     }
 
     function payOut() public {
@@ -137,5 +128,6 @@ contract PolarBetV4 is DealerV4 {
         dealerDiceResult = 0;
         userDiceResult = 0;
         bet = 0;
+        queryId = "";
     }
 }

@@ -3,7 +3,7 @@ import { AddBet } from "../components/AddBet";
 import { DealerBalance } from "../components/DealerBalance";
 import { DealerDiceResult } from "../components/DealerDiceResult";
 import { PayOut } from "../components/PayOut";
-import { PlayerDiceResult } from "../components/PlayerDiceResult";
+import { UserDiceResult } from "../components/PlayerDiceResult";
 import { PlayerWins } from "../components/PlayerWins";
 import { QueryId } from "../components/QueryId";
 import { RollDice } from "../components/RollDice";
@@ -21,7 +21,7 @@ export const Home = () => {
   const [balance, setBalance] = useState<number>(0);
   const [bet, setBet] = useState<number>(0);
   const [dealerResult, setDealerResult] = useState<number>(0);
-  const [playerResult, setPlayerResult] = useState<number>(0);
+  const [userResult, setUserResult] = useState<number>(0);
   const [queryId, setQueryId] = useState<string>();
   const [playerWinsLog, setPlayerWinsLog] = useState<string>();
 
@@ -39,13 +39,14 @@ export const Home = () => {
     setDealerResult(diceResult);
   };
 
-  const getPlayerDiceResult = async () => {
-    const diceResult = await PlayerDiceResult();
-    setPlayerResult(diceResult);
+  const getUserDiceResult = async () => {
+    const diceResult = await UserDiceResult();
+    setUserResult(diceResult);
   };
 
   const getQueryId = async () => {
     const id = await QueryId();
+    console.log(id);
     setQueryId(id);
   };
 
@@ -84,8 +85,8 @@ export const Home = () => {
         <button onClick={() => getDealerDiceResult()}>
           get the dealer dice result
         </button>
-        <p>Your dice result = {playerResult}</p>
-        <button onClick={() => getPlayerDiceResult()}>
+        <p>Your dice result = {userResult}</p>
+        <button onClick={() => getUserDiceResult()}>
           get your dice result
         </button>
         <p>Query ID = {queryId}</p>
