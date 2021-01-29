@@ -127,6 +127,7 @@ contract PolarBetV4 is DealerV4 {
     function resetBetAndDiceResults() private {
         dealerDiceResult = 0;
         userDiceResult = 0;
+        getRandomResult = "";
         bet = 0;
         queryId = "";
     }
