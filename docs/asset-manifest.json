@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/BC3_Rowin/static/css/main.e30b1a82.chunk.css",
-    "main.js": "/BC3_Rowin/static/js/main.1f66304f.chunk.js",
-    "main.js.map": "/BC3_Rowin/static/js/main.1f66304f.chunk.js.map",
+    "main.css": "/BC3_Rowin/static/css/main.91fa629f.chunk.css",
+    "main.js": "/BC3_Rowin/static/js/main.4626fa46.chunk.js",
+    "main.js.map": "/BC3_Rowin/static/js/main.4626fa46.chunk.js.map",
     "runtime-main.js": "/BC3_Rowin/static/js/runtime-main.5642b888.js",
     "runtime-main.js.map": "/BC3_Rowin/static/js/runtime-main.5642b888.js.map",
-    "static/js/2.5838a888.chunk.js": "/BC3_Rowin/static/js/2.5838a888.chunk.js",
-    "static/js/2.5838a888.chunk.js.map": "/BC3_Rowin/static/js/2.5838a888.chunk.js.map",
+    "static/js/2.f720d522.chunk.js": "/BC3_Rowin/static/js/2.f720d522.chunk.js",
+    "static/js/2.f720d522.chunk.js.map": "/BC3_Rowin/static/js/2.f720d522.chunk.js.map",
     "static/js/3.3a6b4741.chunk.js": "/BC3_Rowin/static/js/3.3a6b4741.chunk.js",
     "static/js/3.3a6b4741.chunk.js.map": "/BC3_Rowin/static/js/3.3a6b4741.chunk.js.map",
     "index.html": "/BC3_Rowin/index.html",
-    "static/css/main.e30b1a82.chunk.css.map": "/BC3_Rowin/static/css/main.e30b1a82.chunk.css.map",
-    "static/js/2.5838a888.chunk.js.LICENSE.txt": "/BC3_Rowin/static/js/2.5838a888.chunk.js.LICENSE.txt"
+    "static/css/main.91fa629f.chunk.css.map": "/BC3_Rowin/static/css/main.91fa629f.chunk.css.map",
+    "static/js/2.f720d522.chunk.js.LICENSE.txt": "/BC3_Rowin/static/js/2.f720d522.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5642b888.js",
-    "static/js/2.5838a888.chunk.js",
-    "static/css/main.e30b1a82.chunk.css",
-    "static/js/main.1f66304f.chunk.js"
+    "static/js/2.f720d522.chunk.js",
+    "static/css/main.91fa629f.chunk.css",
+    "static/js/main.4626fa46.chunk.js"
   ]
 }
