@@ -3,6 +3,7 @@ var PolarBet = artifacts.require("PolarBet");
 var PolarBetV2 = artifacts.require("PolarBetV2");
 var PolarBetV3 = artifacts.require("PolarBetV3");
 var PolarBetV4 = artifacts.require("PolarBetV4");
+var PolarBetV5 = artifacts.require("PolarBetV5");
 
 
 module.exports = async function(deployer) {    
@@ -10,11 +11,13 @@ module.exports = async function(deployer) {
     const PolarBetV2Contract=await upgradeProxy(PolarBetContract.address, PolarBetV2, { deployer, unsafeAllowCustomTypes: true });
     const PolarBetV3Contract=await upgradeProxy(PolarBetContract.address, PolarBetV3, { deployer, unsafeAllowCustomTypes: true });
     const PolarBetV4Contract=await upgradeProxy(PolarBetContract.address, PolarBetV4, { deployer, unsafeAllowCustomTypes: true });
+    const PolarBetV5Contract=await upgradeProxy(PolarBetContract.address, PolarBetV5, { deployer, unsafeAllowCustomTypes: true });
 
     console.log(`Address of PolarBetContract: ${PolarBetContract.address}`)
     console.log(`Address of PolarBetV2Contract: ${PolarBetV2Contract.address}`)
     console.log(`Address of PolarBetV3Contract: ${PolarBetV3Contract.address}`)
     console.log(`Address of PolarBetV4Contract: ${PolarBetV4Contract.address}`)
+    console.log(`Address of PolarBetV5Contract: ${PolarBetV5Contract.address}`)
 
     console.log("Doing some tests with the just upgraded contract");
     await PolarBetV2Contract.addBet(3)

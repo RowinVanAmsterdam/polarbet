@@ -7,11 +7,7 @@ import { IpfsImage } from "./pages/IpfsImage";
 
 export const App = () => {
   
-  // (async() => {Promise.resolve(LoadWeb3())})();
   LoadWeb3();
-
-
-
 
   return (
     <Router basename={process.env.PUBLIC_URL}>

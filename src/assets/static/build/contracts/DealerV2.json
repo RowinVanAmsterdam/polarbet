@@ -163,7 +163,7 @@
   "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100935760003560e01c80638129fc1c116100665780638129fc1c1461034c57806381b2d07b14610356578063a994dd9414610374578063cdaba7861461037e578063f98be1e0146103ac57610093565b806307d8b05d1461009857806327dc297e1461010d57806338bbfa50146101d25780635e5bad7c1461032e575b600080fd5b6100da600480360360208110156100ae57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506103da565b604051808373ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390f35b6101d06004803603604081101561012357600080fd5b81019080803590602001909291908035906020019064010000000081111561014a57600080fd5b82018360208201111561015c57600080fd5b8035906020019184600183028401116401000000008311171561017e57600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f82011690508083019250505050505050919291929050505061041e565b005b61032c600480360360608110156101e857600080fd5b81019080803590602001909291908035906020019064010000000081111561020f57600080fd5b82018360208201111561022157600080fd5b8035906020019184600183028401116401000000008311171561024357600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f820116905080830192505050505050509192919290803590602001906401000000008111156102a657600080fd5b8201836020820111156102b857600080fd5b803590602001918460018302840111640100000000831117156102da57600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f820116905080830192505050505050509192919290505050610478565b005b61033661049b565b6040518082815260200191505060405180910390f35b6103546104a1565b005b61035e6105ed565b6040518082815260200191505060405180910390f35b61037c6105f7565b005b6103aa6004803603602081101561039457600080fd5b810190808035906020019092919050505061060e565b005b6103d8600480360360208110156103c257600080fd5b810190808035906020019092919050505061075e565b005b603c6020528060005260406000206000915090508060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16908060010154905082565b6104748282600067ffffffffffffffff8111801561043b57600080fd5b506040519080825280601f01601f19166020018201604052801561046e5781602001600182028036833780820191505090505b50610478565b5050565b6000801b600360008060001b815260200190815260200160002081905550505050565b60385481565b600560019054906101000a900460ff16806104c057506104bf6107e0565b5b806104d85750600560009054906101000a900460ff16155b61052d576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602e815260200180610807602e913960400191505060405180910390fd5b6000600560019054906101000a900460ff16159050801561057f576001600560016101000a81548160ff0219169083151502179055506001600560006101000a81548160ff0219169083151502179055505b600a60388190555033603b60006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555080156105ea576000600560016101000a81548160ff0219169083151502179055505b50565b6000603854905090565b600260395402603860008282540392505081905550565b603b60009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461066857600080fd5b610671816107f7565b61067a57600080fd5b806038600082825401925050819055506001603a6000828254019250508190555060405180604001604052803373ffffffffffffffffffffffffffffffffffffffff168152602001603a54815250603c60003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008201518160000160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506020820151816001015590505050565b603b60009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146107b857600080fd5b6107c1816107f7565b6107ca57600080fd5b6002810260386000828254019250508190555050565b6000803090506000813b9050600081149250505090565b6000816038541015905091905056fe436f6e747261637420696e7374616e63652068617320616c7265616479206265656e20696e697469616c697a6564a264697066735822122038a9353d062a63ab4ba072147b23a926e45208a5e5a0f1313d28360bf1b0672f64736f6c634300060c0033",
   "immutableReferences": {},
   "sourceMap": "120:1322:2:-:0;;;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "120:1322:2:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;497:48;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;15386:130:5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;15522:186;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;177:25:2;;;:::i;:::-;;;;;;;;;;;;;;;;;;;269:105;;;:::i;:::-;;1225:88;;;:::i;:::-;;;;;;;;;;;;;;;;;;;1135:80;;;:::i;:::-;;737:238;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;981:139;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;497:48;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;15386:130:5:-;15469:40;15480:5;15487:7;15506:1;15496:12;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;15469:10;:40::i;:::-;15386:130;;:::o;15522:186::-;15699:1;15691:10;;15654:22;:34;15685:1;15677:10;;15654:34;;;;;;;;;;;:47;;;;15522:186;;;:::o;177:25:2:-;;;;:::o;269:105::-;1057:12:6;;;;;;;;;;;:31;;;;1073:15;:13;:15::i;:::-;1057:31;:47;;;;1093:11;;;;;;;;;;;1092:12;1057:47;1049:106;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1162:19;1185:12;;;;;;;;;;;1184:13;1162:35;;1207:14;1203:80;;;1246:4;1231:12;;:19;;;;;;;;;;;;;;;;;;1272:4;1258:11;;:18;;;;;;;;;;;;;;;;;;1203:80;336:2:2::1;320:13;:18;;;;357:10;348:6;;:19;;;;;;;;;;;;;;;;;;1301:14:6::0;1297:55;;;1340:5;1325:12;;:20;;;;;;;;;;;;;;;;;;1297:55;269:105:2;:::o;1225:88::-;1269:4;1292:13;;1285:20;;1225:88;:::o;1135:80::-;1206:1;1200:3;;:7;1183:13;;:24;;;;;;;;;;;1135:80::o;737:238::-;702:6;;;;;;;;;;;688:20;;:10;:20;;;680:29;;;;;;800:28:::1;823:4;800:22;:28::i;:::-;792:37;;;::::0;::::1;;860:4;843:13;;:21;;;;;;;;;;;893:1;878:11;;:16;;;;;;;;;;;933:35;;;;;;;;944:10;933:35;;;;;;956:11;;933:35;;::::0;908:10:::1;:22;919:10;908:22;;;;;;;;;;;;;;;:60;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;737:238:::0;:::o;981:139::-;702:6;;;;;;;;;;;688:20;;:10;:20;;;680:29;;;;;;1045:28:::1;1068:4;1045:22;:28::i;:::-;1037:37;;;::::0;::::1;;1112:1;1105:4;:8;1088:13;;:25;;;;;;;;;;;981:139:::0;:::o;1442:498:6:-;1489:4;1830:12;1853:4;1830:28;;1864:10;1909:4;1897:17;1891:23;;1934:1;1928:2;:7;1921:14;;;;1442:498;:::o;1323:117:2:-;1388:4;1428;1411:13;;:21;;1404:28;;1323:117;;;:::o",
+  "deployedSourceMap": "120:1322:2:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;497:48;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;15386:130:6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;15522:186;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;177:25:2;;;:::i;:::-;;;;;;;;;;;;;;;;;;;269:105;;;:::i;:::-;;1225:88;;;:::i;:::-;;;;;;;;;;;;;;;;;;;1135:80;;;:::i;:::-;;737:238;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;981:139;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;497:48;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;15386:130:6:-;15469:40;15480:5;15487:7;15506:1;15496:12;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;15469:10;:40::i;:::-;15386:130;;:::o;15522:186::-;15699:1;15691:10;;15654:22;:34;15685:1;15677:10;;15654:34;;;;;;;;;;;:47;;;;15522:186;;;:::o;177:25:2:-;;;;:::o;269:105::-;1057:12:7;;;;;;;;;;;:31;;;;1073:15;:13;:15::i;:::-;1057:31;:47;;;;1093:11;;;;;;;;;;;1092:12;1057:47;1049:106;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1162:19;1185:12;;;;;;;;;;;1184:13;1162:35;;1207:14;1203:80;;;1246:4;1231:12;;:19;;;;;;;;;;;;;;;;;;1272:4;1258:11;;:18;;;;;;;;;;;;;;;;;;1203:80;336:2:2::1;320:13;:18;;;;357:10;348:6;;:19;;;;;;;;;;;;;;;;;;1301:14:7::0;1297:55;;;1340:5;1325:12;;:20;;;;;;;;;;;;;;;;;;1297:55;269:105:2;:::o;1225:88::-;1269:4;1292:13;;1285:20;;1225:88;:::o;1135:80::-;1206:1;1200:3;;:7;1183:13;;:24;;;;;;;;;;;1135:80::o;737:238::-;702:6;;;;;;;;;;;688:20;;:10;:20;;;680:29;;;;;;800:28:::1;823:4;800:22;:28::i;:::-;792:37;;;::::0;::::1;;860:4;843:13;;:21;;;;;;;;;;;893:1;878:11;;:16;;;;;;;;;;;933:35;;;;;;;;944:10;933:35;;;;;;956:11;;933:35;;::::0;908:10:::1;:22;919:10;908:22;;;;;;;;;;;;;;;:60;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;737:238:::0;:::o;981:139::-;702:6;;;;;;;;;;;688:20;;:10;:20;;;680:29;;;;;;1045:28:::1;1068:4;1045:22;:28::i;:::-;1037:37;;;::::0;::::1;;1112:1;1105:4;:8;1088:13;;:25;;;;;;;;;;;981:139:::0;:::o;1442:498:7:-;1489:4;1830:12;1853:4;1830:28;;1864:10;1909:4;1897:17;1891:23;;1934:1;1928:2;:7;1921:14;;;;1442:498;:::o;1323:117:2:-;1388:4;1428;1411:13;;:21;;1404:28;;1323:117;;;:::o",
   "source": "pragma solidity ^0.6.0;\nimport \"./provableAPI.sol\";\nimport \"@openzeppelin/upgrades-core/contracts/Initializable.sol\";\n\n\ncontract DealerV2 is usingProvable, Initializable  {\n    uint public dealerBalance;\n    uint bet;\n    uint playedGames;\n    address player;\n    \n    function initialize() public initializer {\n        dealerBalance = 10;\n        player = msg.sender;\n    }   \n    \n    event PlayerWins(\n        address player,\n        uint profit,\n        uint dealerBalance\n        );\n    \n    mapping(address => PlayerData) public playerList;\n    \n    struct PlayerData {\n        address playerAddress;\n        uint playedGames;\n    }\n    \n    modifier onlyPlayer() {\n        require(msg.sender == player);\n        _;\n    }\n    \n    function addBet(uint _bet) public onlyPlayer {\n        require(checkIfBalanceIsEnough(_bet));\n            dealerBalance += _bet;\n            playedGames += 1;\n            playerList[msg.sender] = PlayerData(msg.sender, playedGames);\n    }\n\n    function addBet2(uint _bet) public onlyPlayer {\n        require(checkIfBalanceIsEnough(_bet));\n            dealerBalance += _bet * 2;\n    }\n    \n    \n    function returnBetWithProfit() public {\n        dealerBalance -= bet * 2; \n    }\n    \n    function showBalance() public view returns (uint) {\n        return dealerBalance; \n    }\n    \n    function checkIfBalanceIsEnough(uint _bet) private view returns (bool) {\n        return dealerBalance >= _bet; \n    }\n}\n\ncontract PolarBetV2 is DealerV2 {\n    uint dealerDiceResult;\n    uint userDiceResult;\n    bytes32 public queryId;\n    \n    \n    // constructor() public { \n    //     provable_setProof(proofType_Ledger); \n    // }\n\n    function initialize2() public initializer {\n        provable_setProof(proofType_Ledger); \n    }   \n    \n    \n    function __callback(bytes32  _queryId,string memory _result,bytes memory _proof ) override public {\n        require(msg.sender == provable_cbAddress());\n        if (provable_randomDS_proofVerify__returnCode(_queryId,_result,_proof)== 0)\n            userDiceResult = uint8(uint256(keccak256(abi.encodePacked(_result)))% 5) + 1;\n        else\n            revert(\"error message\");\n}\n    \n    function getRandom(uint8 nrBytes) public payable { // not supported in remix\n        queryId=provable_newRandomDSQuery(\n            0,          // QUERY_EXECUTION_DELAY\n            nrBytes,    // NUM_RANDOM_BYTES_REQUESTED\n            200000      // GAS_FOR_CALLBACK\n        );\n    }\n    \n    function getRandomNumber() private view returns (uint8) {\n        return uint8(uint256(keccak256(abi.encodePacked(block.timestamp, block.coinbase, block.difficulty)))%6) + 1;\n    }\n    \n    function rollDice() public payable {\n        dealerDiceResult = getRandomNumber();\n        getRandom(1);\n    }\n\n    function getDiceResultOfDealer() public view returns (uint) {\n        return dealerDiceResult;\n    }\n    \n    function getDiceResultOfUser() public view returns (uint) {\n        return userDiceResult;\n    }\n    \n    function payOut() public  {\n        if (dealerDiceResult < userDiceResult) {\n            returnBetWithProfit();\n            emit PlayerWins(player, bet, dealerBalance);\n        }  \n        resetBetAndDiceResults();\n    }\n    \n    function resetBetAndDiceResults() private {\n        dealerDiceResult = 0;\n        userDiceResult = 0;\n        bet = 0; \n    }\n}",
   "sourcePath": "/Users/rowin/Documents/projects/Koios/polarbet/contracts/PolarBetV2.sol",
   "ast": {
@@ -197,7 +197,7 @@
         "id": 339,
         "nodeType": "ImportDirective",
         "scope": 657,
-        "sourceUnit": 7733,
+        "sourceUnit": 8076,
         "src": "24:27:2",
         "symbolAliases": [],
         "unitAlias": ""
@@ -208,7 +208,7 @@
         "id": 340,
         "nodeType": "ImportDirective",
         "scope": 657,
-        "sourceUnit": 7808,
+        "sourceUnit": 8151,
         "src": "52:65:2",
         "symbolAliases": [],
         "unitAlias": ""
@@ -223,10 +223,10 @@
               "id": 341,
               "name": "usingProvable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 7732,
+              "referencedDeclaration": 8075,
               "src": "141:13:2",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_usingProvable_$7732",
+                "typeIdentifier": "t_contract$_usingProvable_$8075",
                 "typeString": "contract usingProvable"
               }
             },
@@ -241,10 +241,10 @@
               "id": 343,
               "name": "Initializable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 7807,
+              "referencedDeclaration": 8150,
               "src": "156:13:2",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Initializable_$7807",
+                "typeIdentifier": "t_contract$_Initializable_$8150",
                 "typeString": "contract Initializable"
               }
             },
@@ -254,8 +254,8 @@
           }
         ],
         "contractDependencies": [
-          7732,
-          7807
+          8075,
+          8150
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -263,8 +263,8 @@
         "id": 479,
         "linearizedBaseContracts": [
           479,
-          7807,
-          7732
+          8150,
+          8075
         ],
         "name": "DealerV2",
         "nodeType": "ContractDefinition",
@@ -519,7 +519,7 @@
                   "name": "initializer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 7780,
+                  "referencedDeclaration": 8123,
                   "src": "298:11:2",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -1975,8 +1975,8 @@
         ],
         "contractDependencies": [
           479,
-          7732,
-          7807
+          8075,
+          8150
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -1985,8 +1985,8 @@
         "linearizedBaseContracts": [
           656,
           479,
-          7807,
-          7732
+          8150,
+          8075
         ],
         "name": "PolarBetV2",
         "nodeType": "ContractDefinition",
@@ -2092,7 +2092,7 @@
                         "name": "proofType_Ledger",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2026,
+                        "referencedDeclaration": 2369,
                         "src": "1732:16:2",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes1",
@@ -2111,7 +2111,7 @@
                       "name": "provable_setProof",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 5474,
+                      "referencedDeclaration": 5817,
                       "src": "1714:17:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_bytes1_$returns$__$",
@@ -2154,7 +2154,7 @@
                   "name": "initializer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 7780,
+                  "referencedDeclaration": 8123,
                   "src": "1692:11:2",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -2188,7 +2188,7 @@
           },
           {
             "baseFunctions": [
-              2392
+              2735
             ],
             "body": {
               "id": 546,
@@ -2250,7 +2250,7 @@
                             "name": "provable_cbAddress",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 5486,
+                            "referencedDeclaration": 5829,
                             "src": "1905:18:2",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_nonpayable$__$returns$_t_address_$",
@@ -2393,7 +2393,7 @@
                         "name": "provable_randomDS_proofVerify__returnCode",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 7230,
+                        "referencedDeclaration": 7573,
                         "src": "1940:41:2",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_nonpayable$_t_bytes32_$_t_string_memory_ptr_$_t_bytes_memory_ptr_$returns$_t_uint8_$",
@@ -3034,7 +3034,7 @@
                         "name": "provable_newRandomDSQuery",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 6807,
+                        "referencedDeclaration": 7150,
                         "src": "2256:25:2",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_nonpayable$_t_uint256_$_t_uint256_$_t_uint256_$returns$_t_bytes32_$",
@@ -4350,7 +4350,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 7733,
+          "SourceUnit": 8076,
           "absolutePath": "/Users/rowin/Documents/projects/Koios/polarbet/contracts/provableAPI.sol",
           "file": "./provableAPI.sol",
           "scope": 657,
@@ -4365,7 +4365,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 7808,
+          "SourceUnit": 8151,
           "absolutePath": "@openzeppelin/upgrades-core/contracts/Initializable.sol",
           "file": "@openzeppelin/upgrades-core/contracts/Initializable.sol",
           "scope": 657,
@@ -4382,16 +4382,16 @@
         "attributes": {
           "abstract": false,
           "contractDependencies": [
-            7732,
-            7807
+            8075,
+            8150
           ],
           "contractKind": "contract",
           "documentation": null,
           "fullyImplemented": true,
           "linearizedBaseContracts": [
             479,
-            7807,
-            7732
+            8150,
+            8075
           ],
           "name": "DealerV2",
           "scope": 657
@@ -4406,7 +4406,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "usingProvable",
-                  "referencedDeclaration": 7732,
+                  "referencedDeclaration": 8075,
                   "type": "contract usingProvable"
                 },
                 "id": 341,
@@ -4427,7 +4427,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "Initializable",
-                  "referencedDeclaration": 7807,
+                  "referencedDeclaration": 8150,
                   "type": "contract Initializable"
                 },
                 "id": 343,
@@ -4601,7 +4601,7 @@
                       "overloadedDeclarations": [
                         null
                       ],
-                      "referencedDeclaration": 7780,
+                      "referencedDeclaration": 8123,
                       "type": "modifier ()",
                       "value": "initializer"
                     },
@@ -6295,8 +6295,8 @@
           "abstract": false,
           "contractDependencies": [
             479,
-            7732,
-            7807
+            8075,
+            8150
           ],
           "contractKind": "contract",
           "documentation": null,
@@ -6304,8 +6304,8 @@
           "linearizedBaseContracts": [
             656,
             479,
-            7807,
-            7732
+            8150,
+            8075
           ],
           "name": "PolarBetV2",
           "scope": 657
@@ -6465,7 +6465,7 @@
                       "overloadedDeclarations": [
                         null
                       ],
-                      "referencedDeclaration": 7780,
+                      "referencedDeclaration": 8123,
                       "type": "modifier ()",
                       "value": "initializer"
                     },
@@ -6509,7 +6509,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5474,
+                              "referencedDeclaration": 5817,
                               "type": "function (bytes1)",
                               "value": "provable_setProof"
                             },
@@ -6523,7 +6523,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 2026,
+                              "referencedDeclaration": 2369,
                               "type": "bytes1",
                               "value": "proofType_Ledger"
                             },
@@ -6554,7 +6554,7 @@
           {
             "attributes": {
               "baseFunctions": [
-                2392
+                2735
               ],
               "documentation": null,
               "functionSelector": "38bbfa50",
@@ -6796,7 +6796,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 5486,
+                                      "referencedDeclaration": 5829,
                                       "type": "function () returns (address)",
                                       "value": "provable_cbAddress"
                                     },
@@ -6876,7 +6876,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 7230,
+                                  "referencedDeclaration": 7573,
                                   "type": "function (bytes32,string memory,bytes memory) returns (uint8)",
                                   "value": "provable_randomDS_proofVerify__returnCode"
                                 },
@@ -7483,7 +7483,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 6807,
+                                  "referencedDeclaration": 7150,
                                   "type": "function (uint256,uint256,uint256) returns (bytes32)",
                                   "value": "provable_newRandomDSQuery"
                                 },
@@ -8951,7 +8951,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.3",
-  "updatedAt": "2021-01-28T16:02:11.148Z",
+  "updatedAt": "2021-01-29T21:20:00.636Z",
   "devdoc": {
     "kind": "dev",
     "methods": {

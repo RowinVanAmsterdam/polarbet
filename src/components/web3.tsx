@@ -2,7 +2,7 @@ import Web3 from "web3";
 import contract from "../assets/static/build/contracts/PolarBetV4.json";
 // const contractAddress = "polarbet.eth"; // ENS Rinkeby
 // const contractAddress = "0xc980207f705242bEAb7C9401F841bDd9749dDb2b"; // Rinkeby address connected to ENS
-const contractAddress = "0x58D4b2E06fDE2B386706584EF2f3058D5eBaD592"; // Rinkeby
+const contractAddress = "0xAa8416922313E0Cdb3fB95460280228deABE6AEf"; // Rinkeby
 // const contractAddress = "0x3C21f4A120b1FEd1b9F5Fc6c076c2E40124a3d8B"; // Ganache
 const web3 = new Web3(Web3.givenProvider || "http://localhost:8545");
 
